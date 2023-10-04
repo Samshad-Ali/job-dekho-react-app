@@ -1,0 +1,37 @@
+/* ---------------------importing font family -------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* -----------------------variable CSS-------------------------------- */
+
+/* ---------font-family------------- */
+$poppins: "poppins", sans-serif;
+$nunito: "nunito", sans-serif;
+$openSans: "Open Sans", sans-serif;
+$roboto: "Roboto", sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: $openSans;
+}
+
+//   global css-------------
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//   colors-----------
+$primary-color: purple;
+
+// ------ importing SCSS file-------
+@import "./stylesheets/Home.scss";
+@import "./stylesheets/Card.scss";
+@import "./stylesheets/Signup.scss";
+@import "./stylesheets/Login.scss";
+@import "./stylesheets/JobDetail.scss";
+@import "./stylesheets/Apply.scss";
